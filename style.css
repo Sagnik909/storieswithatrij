@@ -16,7 +16,7 @@ body{
     color: white;
     left:0;
     right:0;
-    top:0;
+    top: 60px;;
     bottom:0;
     opacity: 0.83;
     display:table;
@@ -42,14 +42,15 @@ body{
  }
  
  #menu{
-    position: fixed;
-    top: 10px;
-    right:40px;
-    cursor: grab;
-    z-index: 9;
     font-size: 30px;
     font-weight: bold;
     text-align:center;
+    background: relative;
+    width:100%;
+    margin-top: 0px;
+   position: fixed;
+   top: 0px;
+   z-index: 10;
  }
  #sec2{
     padding: 50px;
@@ -114,17 +115,20 @@ p{
    text-align: center;
 }
 .links{
-   font-weight: 300px;
-   color: blue;
+   font-weight: 1000px;
+   color: black;
    position: relative;
    font-family: cursive;
-   
+   display: inline;
+   padding-left: 33px;
+   padding-right: 33px;
+   font-size: 30px;
+   cursor:grab;
 }
 #contact{
    margin-bottom: 300px;
 }
-.topnav{
-   background: green;
-   width:100%;
-   margin-top: 0px
+
+.links:hover{
+   font-size:35px ;
 }
