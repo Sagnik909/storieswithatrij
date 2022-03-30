@@ -118,7 +118,13 @@ p{
    color: blue;
    position: relative;
    font-family: cursive;
+   
 }
 #contact{
    margin-bottom: 300px;
+}
+.topnav{
+   background: green;
+   width:100%;
+   margin-top: 0px
 }
